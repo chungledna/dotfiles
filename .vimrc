@@ -69,6 +69,7 @@ Plug 'honza/vim-snippets'
 
 "" Color
 " Plug 'tomasr/molokai'
+Plug 'lifepillar/vim-solarized8'
 
 "*****************************************************************************
 "" Custom bundles
@@ -180,7 +181,8 @@ set ruler
 set number
 
 let no_buffers_menu=1
-" silent! colorscheme molokai
+set background=dark
+colorscheme solarized8_flat
 
 set mousemodel=popup
 set t_Co=256

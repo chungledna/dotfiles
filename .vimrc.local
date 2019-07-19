@@ -48,3 +48,5 @@ let g:prettier#config#prose_wrap = 'preserve'
 
 " css|strict|ignore
 let g:prettier#config#html_whitespace_sensitivity = 'css'
+
+hi Normal guibg=NONE ctermbg=NONE
